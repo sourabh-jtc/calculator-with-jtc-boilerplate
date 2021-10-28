@@ -1,17 +1,35 @@
 /* eslint-disable no-console */
 
-import assets from './asset.json';
-
-function showTime() {
-  console.log(Date().toLocaleString());
-  console.log(assets.greetings);
+function calculator(num1, num2, operation){
+  if(!num1 && !num2 && !operation){
+      console.log('Please provide all required fields..')
+  }
+  if(!num1 || !num2 ){
+    console.log('Please provide desired numbers..')
+}
+  if(!operation){
+    console.log('Please provide operation to do...')
+}
+  if(operation==='+'){
+      console.log(num1+num2)
+  }
+  if(operation==='-'){
+      if(num1>num2){
+          console.log(num1-num2)
+      }else{
+          console.log(num2-num1)
+      }
+  }
+  if(operation==='*'){
+      console.log(num1*num2)
+  }
+  if(operation==='/'){
+      console.log(num1/num2)
+  }
+  if(operation !== '+' && operation !== '-' && operation !== '*' && operation !== '/'){
+      console.log('Please provide valid arithmetical operation..')
+  }
+  
 }
 
-function tick() {
-  setTimeout(() => {
-    showTime();
-    tick();
-  }, 1000);
-}
-
-tick();
+module.exports.calculator = calculator
