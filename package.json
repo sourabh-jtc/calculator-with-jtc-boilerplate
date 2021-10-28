@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-node-ts",
+  "name": "calculator-with-jtc-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate project for NodeJS based projects in TypeScript",
+  "description": "calculator-with-jtc-boilerplate to simply perform arithmetic operations",
   "engines": {
     "npm": "6.14.13",
     "node": "14.17.3"
@@ -18,19 +18,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jalantechnologies/boilerplate-node-ts.git"
+    "url": "git+https://github.com/sourabh-jtc/calculator-with-jtc-boilerplate.git"
   },
   "keywords": [
-    "boilerplate",
+    "calculator with boiler-plate",
     "node-js",
     "typescript"
   ],
-  "author": "JalanTechnologies",
+  "author": "sourabh-jtc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jalantechnologies/boilerplate-node-ts/issues"
+    "url": "https://github.com/sourabh-jtc/calculator-with-jtc-boilerplate/issues"
   },
-  "homepage": "https://github.com/jalantechnologies/boilerplate-node-ts#readme",
+  "homepage": "https://github.com/sourabh-jtc/calculator-with-jtc-boilerplate#readme",
   "dependencies": {
     "config": "^3.3.6"
   },
@@ -49,5 +49,8 @@
     "remark-lint": "^9.1.0",
     "remark-preset-lint-recommended": "^6.1.1",
     "typescript": "^4.4.4"
+  },
+  "directories": {
+    "test": "test"
   }
 }
