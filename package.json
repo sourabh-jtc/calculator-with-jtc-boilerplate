@@ -1,6 +1,6 @@
 {
   "name": "calculator-with-jtc-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "calculator-with-jtc-boilerplate to simply perform arithmetic operations",
   "engines": {
     "npm": "6.14.13",
