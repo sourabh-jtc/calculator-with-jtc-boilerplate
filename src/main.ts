@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 
-function calculator(num1:number, num2:number, operation:string){
+function calculator(num1, num2, operation){
   if(!num1 && !num2 && !operation){
       console.log('Please provide all required fields..')
   }
